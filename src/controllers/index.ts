@@ -1,4 +1,3 @@
-import BitcoinController from './bitcoin.controller';
-import UserController from './user.controller';
+import ContactController from './contact.controller';
 
-export const CONTROLLERS = [new UserController(), new BitcoinController()];
+export const CONTROLLERS = [new ContactController()];
